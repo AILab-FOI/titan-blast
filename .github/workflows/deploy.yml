@@ -1,0 +1,60 @@
+name: Deploy Game to VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: |
+          npm install
+          npm run build:client
+          npm run build:server
+
+      - name: Create SSH key
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+
+      - name: Deploy to server
+        env:
+          SERVER_IP: ${{ secrets.SERVER_IP }}
+          SERVER_USER: ${{ secrets.USERNAME }}
+        run: |
+          # Stop any existing process
+          ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP 'pm2 stop all || true'
+          
+          # Create deployment directory
+          ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP 'mkdir -p ~/app'
+          
+          # Copy files
+          rsync -avz -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no" \
+            --exclude='node_modules' \
+            --exclude='.git' \
+            ./ $SERVER_USER@$SERVER_IP:~/app/
+          
+          # Install dependencies and start application
+          ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP 'cd ~/app && \
+            npm install && \
+            cd client && npm install && \
+            cd ../server && npm install && \
+            cd ../shared && npm install && \
+            cd .. && \
+            npm install -g pm2 && \
+            pm2 start ecosystem.config.js'

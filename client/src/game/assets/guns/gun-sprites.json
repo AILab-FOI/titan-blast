@@ -1,0 +1,136 @@
+{
+  "frames": {
+    "417_00.png": {
+      "frame": {
+        "x": 1,
+        "y": 26,
+        "w": 68,
+        "h": 28
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 68,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 68,
+        "h": 28
+      }
+    },
+    "AWP_00.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 75,
+        "h": 23
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 23
+      },
+      "sourceSize": {
+        "w": 75,
+        "h": 23
+      }
+    },
+    "DEagle_0.png": {
+      "frame": {
+        "x": 78,
+        "y": 1,
+        "w": 45,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 45,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 45,
+        "h": 30
+      }
+    },
+    "FAMAS_00.png": {
+      "frame": {
+        "x": 1,
+        "y": 56,
+        "w": 58,
+        "h": 26
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 58,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 58,
+        "h": 26
+      }
+    },
+    "P90_00.png": {
+      "frame": {
+        "x": 71,
+        "y": 33,
+        "w": 56,
+        "h": 22
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 22
+      },
+      "sourceSize": {
+        "w": 56,
+        "h": 22
+      }
+    },
+    "Six12SD_0.png": {
+      "frame": {
+        "x": 61,
+        "y": 57,
+        "w": 62,
+        "h": 22
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 22
+      },
+      "sourceSize": {
+        "w": 62,
+        "h": 22
+      }
+    }
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.1",
+    "image": "gun-sprites.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 128,
+      "h": 83
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:2153d3000b155b395438873d1a61d8ab:084ae1a897ccb3ba2ff9df1eb21de7bc:eaa7c2083a39ed87abb2a82f0d21da8f$"
+  }
+}

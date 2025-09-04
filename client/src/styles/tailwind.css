@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+    --font-game: "Orbitron", sans-serif;
+    --font-sans: "Roboto", sans-serif;
+
+    /* Base colors */
+    --color-game-primary: #FFCC00;
+    --color-game-secondary: #3A86FF;
+    --color-game-dark: #0F172A;
+    --color-game-light: #E2E8F0;
+    --color-game-accent: #8B5CF6;
+
+    /* Slate color palette */
+    --color-slate-50: #f8fafc;
+    --color-slate-100: #f1f5f9;
+    --color-slate-200: #e2e8f0;
+    --color-slate-300: #cbd5e1;
+    --color-slate-400: #94a3b8;
+    --color-slate-500: #64748b;
+    --color-slate-600: #475569;
+    --color-slate-700: #334155;
+    --color-slate-800: #1e293b;
+    --color-slate-900: #0f172a;
+    --color-slate-950: #020617;
+
+    /* Red color palette */
+    --color-red-50: #fef2f2;
+    --color-red-100: #fee2e2;
+    --color-red-200: #fecaca;
+    --color-red-300: #fca5a5;
+    --color-red-400: #f87171;
+    --color-red-500: #ef4444;
+    --color-red-600: #dc2626;
+    --color-red-700: #b91c1c;
+    --color-red-800: #991b1b;
+    --color-red-900: #7f1d1d;
+    --color-red-950: #450a0a;
+
+    /* Shadows */
+    --shadow-game-button: 0 4px 0 0 rgba(0, 0, 0, 0.3);
+    --shadow-game-button-hover: 0 6px 0 0 rgba(0, 0, 0, 0.3);
+
+    /* Custom animations */
+    --animation-float: float 3s ease-in-out infinite;
+}
+
+

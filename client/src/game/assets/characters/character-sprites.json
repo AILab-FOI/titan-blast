@@ -1,0 +1,204 @@
+{"frames": {
+
+"basic.png":
+{
+	"frame": {"x":662,"y":659,"w":128,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":140},
+	"sourceSize": {"w":128,"h":140}
+},
+"buff.png":
+{
+	"frame": {"x":1312,"y":657,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"buffold.png":
+{
+	"frame": {"x":1182,"y":657,"w":128,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":135},
+	"sourceSize": {"w":128,"h":135}
+},
+"darkyrock.png":
+{
+	"frame": {"x":1295,"y":527,"w":128,"h":131},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":128,"h":131},
+	"sourceSize": {"w":128,"h":134}
+},
+"devil.png":
+{
+	"frame": {"x":922,"y":659,"w":128,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":128,"h":139},
+	"sourceSize": {"w":128,"h":140}
+},
+"fancy.png":
+{
+	"frame": {"x":1052,"y":659,"w":128,"h":138},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":128,"h":138},
+	"sourceSize": {"w":128,"h":142}
+},
+"frame-2.png":
+{
+	"frame": {"x":587,"y":1,"w":566,"h":656},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":35,"w":566,"h":656},
+	"sourceSize": {"w":582,"h":691}
+},
+"ghost.png":
+{
+	"frame": {"x":1155,"y":527,"w":128,"h":138},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":138},
+	"sourceSize": {"w":128,"h":139}
+},
+"growing.png":
+{
+	"frame": {"x":389,"y":671,"w":141,"h":148},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":141,"h":148},
+	"sourceSize": {"w":150,"h":150}
+},
+"kamikaze.png":
+{
+	"frame": {"x":1553,"y":527,"w":128,"h":108},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":108},
+	"sourceSize": {"w":128,"h":108}
+},
+"orangegoblin.png":
+{
+	"frame": {"x":1442,"y":657,"w":125,"h":112},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":8,"w":125,"h":112},
+	"sourceSize": {"w":128,"h":120}
+},
+"player.png":
+{
+	"frame": {"x":1,"y":671,"w":128,"h":214},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":214},
+	"sourceSize": {"w":128,"h":214}
+},
+"pufpuf.png":
+{
+	"frame": {"x":792,"y":659,"w":128,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":140},
+	"sourceSize": {"w":128,"h":140}
+},
+"reflector.png":
+{
+	"frame": {"x":1428,"y":527,"w":128,"h":123},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":123},
+	"sourceSize": {"w":128,"h":123}
+},
+"shielded.png":
+{
+	"frame": {"x":532,"y":671,"w":128,"h":151},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":12,"w":128,"h":151},
+	"sourceSize": {"w":128,"h":163}
+},
+"slugish.png":
+{
+	"frame": {"x":389,"y":671,"w":141,"h":148},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":141,"h":148},
+	"sourceSize": {"w":150,"h":150}
+},
+"spawner.png":
+{
+	"frame": {"x":1557,"y":261,"w":128,"h":95},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":95},
+	"sourceSize": {"w":128,"h":95}
+},
+"speedy.png":
+{
+	"frame": {"x":1557,"y":131,"w":128,"h":103},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":103},
+	"sourceSize": {"w":128,"h":103}
+},
+"spiky-monster.png":
+{
+	"frame": {"x":1155,"y":1,"w":524,"h":400},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":9,"w":524,"h":400},
+	"sourceSize": {"w":524,"h":409}
+},
+"splitting.png":
+{
+	"frame": {"x":1557,"y":391,"w":122,"h":97},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":4,"w":122,"h":97},
+	"sourceSize": {"w":128,"h":101}
+},
+"tank.png":
+{
+	"frame": {"x":1557,"y":1,"w":128,"h":104},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":104},
+	"sourceSize": {"w":128,"h":104}
+},
+"teleporter.png":
+{
+	"frame": {"x":1556,"y":657,"w":127,"h":107},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":127,"h":107},
+	"sourceSize": {"w":128,"h":107}
+},
+"wanderer.png":
+{
+	"frame": {"x":217,"y":671,"w":128,"h":170},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":170},
+	"sourceSize": {"w":128,"h":170}
+},
+"yellowdevil.png":
+{
+	"frame": {"x":1,"y":1,"w":668,"h":584},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":27,"w":668,"h":584},
+	"sourceSize": {"w":683,"h":611}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "character-sprites.png",
+	"format": "RGBA8888",
+	"size": {"w":1664,"h":823},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:24d2c4862b4a36db2a46161757e5b999:0f4df81b8b08551a2a5dfce731689cbe:2adb24ae5362b16140405b1000e6f943$"
+}
+}
